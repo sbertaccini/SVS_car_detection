@@ -1,4 +1,4 @@
-path: C:/Users/seren/UNIBO/MAGISTRALE/SVS/lab/progetto/dataset
+path: C:/Users/seren/UNIBO/MAGISTRALE/SVS/lab/SVS_car_detection/dataset
 train: images/train
 val: images/val
 

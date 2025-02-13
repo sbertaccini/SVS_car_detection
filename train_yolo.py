@@ -9,15 +9,10 @@ def train_model():
     print(f"Using device: {device}")
 
     # Train the model
-    model.train(data="car_detection.yaml", epochs=50, batch=8, imgsz=640, device=device, workers=0)
+    model.train(data="car_detection.yaml", epochs=50, batch=8, imgsz=300, device=device, workers=0)
 
     # Validate the model
     model.val()
-
-    # Save the fine-tuned model
-    model.export(format="onnx")  # Options: torchscript, onnx, tensorRT, etc.
-
-    print("Training complete. Model saved!")
 
 if __name__ == '__main__':
     train_model()

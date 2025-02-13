@@ -4,12 +4,12 @@ model: yolov8n.yaml
 data: car_detection.yaml
 epochs: 50
 patience: 50
-batch: 16
-imgsz: 640
+batch: 8
+imgsz: 300
 save: true
 cache: false
 device: cuda:0
-workers: 8
+workers: 0
 project: null
 name: null
 exist_ok: false
