@@ -4,6 +4,8 @@ dataset/
 # Car detection model
 /yolov8n.pt
 
+/pwd.txt
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
